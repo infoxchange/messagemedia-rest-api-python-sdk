@@ -98,6 +98,8 @@ class Configuration(object):
         self.cert_file = None
         # client key file
         self.key_file = None
+        # http proxy url
+        self.proxy_url = None
 
     @property
     def logger_file(self):
